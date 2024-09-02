@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="4962" dy="2893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4724" dy="3324" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -201,26 +201,20 @@
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nw4yl1-feg41qcsiGpT8-65" value="queue: DownloadQueueable" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="nw4yl1-feg41qcsiGpT8-64" vertex="1">
-          <mxGeometry y="26" width="180" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="nw4yl1-feg41qcsiGpT8-116" value="weak manager" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="nw4yl1-feg41qcsiGpT8-64" vertex="1">
-          <mxGeometry y="52" width="180" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="nw4yl1-feg41qcsiGpT8-71" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="nw4yl1-feg41qcsiGpT8-64" vertex="1">
-          <mxGeometry y="78" width="180" height="8" as="geometry" />
+          <mxGeometry y="26" width="180" height="8" as="geometry" />
         </mxCell>
         <mxCell id="nw4yl1-feg41qcsiGpT8-69" value="addTask" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="nw4yl1-feg41qcsiGpT8-64" vertex="1">
-          <mxGeometry y="86" width="180" height="26" as="geometry" />
+          <mxGeometry y="34" width="180" height="26" as="geometry" />
         </mxCell>
         <mxCell id="nw4yl1-feg41qcsiGpT8-72" value="cancelTask" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="nw4yl1-feg41qcsiGpT8-64" vertex="1">
-          <mxGeometry y="112" width="180" height="26" as="geometry" />
+          <mxGeometry y="60" width="180" height="26" as="geometry" />
         </mxCell>
         <mxCell id="nw4yl1-feg41qcsiGpT8-73" value="cancelAll" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="nw4yl1-feg41qcsiGpT8-64" vertex="1">
-          <mxGeometry y="138" width="180" height="26" as="geometry" />
+          <mxGeometry y="86" width="180" height="26" as="geometry" />
         </mxCell>
         <mxCell id="nw4yl1-feg41qcsiGpT8-74" value="resumeAll" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="nw4yl1-feg41qcsiGpT8-64" vertex="1">
-          <mxGeometry y="164" width="180" height="26" as="geometry" />
+          <mxGeometry y="112" width="180" height="26" as="geometry" />
         </mxCell>
         <mxCell id="nw4yl1-feg41qcsiGpT8-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.441;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--2" target="nw4yl1-feg41qcsiGpT8-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -253,23 +247,20 @@
         <mxCell id="nw4yl1-feg41qcsiGpT8-97" value="+ queue: [ID(URL): SessionDownloadTask]" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="nw4yl1-feg41qcsiGpT8-96" vertex="1">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="nw4yl1-feg41qcsiGpT8-201" value="- weak manager: DownloadManager?" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="nw4yl1-feg41qcsiGpT8-96" vertex="1">
-          <mxGeometry y="52" width="240" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="nw4yl1-feg41qcsiGpT8-98" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="nw4yl1-feg41qcsiGpT8-96" vertex="1">
-          <mxGeometry y="78" width="240" height="8" as="geometry" />
+          <mxGeometry y="52" width="240" height="8" as="geometry" />
         </mxCell>
         <mxCell id="nw4yl1-feg41qcsiGpT8-99" value="+ addTask" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="nw4yl1-feg41qcsiGpT8-96" vertex="1">
-          <mxGeometry y="86" width="240" height="26" as="geometry" />
+          <mxGeometry y="60" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="nw4yl1-feg41qcsiGpT8-100" value="+ cancelTask" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="nw4yl1-feg41qcsiGpT8-96" vertex="1">
-          <mxGeometry y="112" width="240" height="26" as="geometry" />
+          <mxGeometry y="86" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="nw4yl1-feg41qcsiGpT8-101" value="+ cancelAll" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="nw4yl1-feg41qcsiGpT8-96" vertex="1">
-          <mxGeometry y="138" width="240" height="26" as="geometry" />
+          <mxGeometry y="112" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="nw4yl1-feg41qcsiGpT8-102" value="+ resumeAll" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="nw4yl1-feg41qcsiGpT8-96" vertex="1">
-          <mxGeometry y="164" width="240" height="26" as="geometry" />
+          <mxGeometry y="138" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="nw4yl1-feg41qcsiGpT8-105" value="따로 만드는게 좋을지&lt;div&gt;고민&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-810" y="830" width="120" height="60" as="geometry" />
@@ -298,8 +289,10 @@
         <mxCell id="nw4yl1-feg41qcsiGpT8-117" value="&lt;b&gt;URLSession&amp;nbsp;&lt;/b&gt;인스턴스가 생성된 후에는 configuration을 변경할 수 없다.&lt;br&gt;새로운 URLSession instance를 생성해야 한다.&lt;div&gt;configuration을 변경할 수 있게 할 것인가?&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="980" y="40" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nw4yl1-feg41qcsiGpT8-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.012;entryY=0.104;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nw4yl1-feg41qcsiGpT8-65" target="zkfFHV4jXpPFQw0GAbJ--0" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="nw4yl1-feg41qcsiGpT8-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.012;entryY=0.104;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="zkfFHV4jXpPFQw0GAbJ--0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="59.999999999999545" y="159.0526315789475" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="nw4yl1-feg41qcsiGpT8-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;endArrow=none;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nw4yl1-feg41qcsiGpT8-127" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -325,23 +318,20 @@
         <mxCell id="nw4yl1-feg41qcsiGpT8-128" value="queue: OperationQueue" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="nw4yl1-feg41qcsiGpT8-127" vertex="1">
           <mxGeometry y="26" width="210" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="nw4yl1-feg41qcsiGpT8-200" value="weak manager: DownloadManager?" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="nw4yl1-feg41qcsiGpT8-127" vertex="1">
-          <mxGeometry y="52" width="210" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="nw4yl1-feg41qcsiGpT8-129" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="nw4yl1-feg41qcsiGpT8-127" vertex="1">
-          <mxGeometry y="78" width="210" height="8" as="geometry" />
+          <mxGeometry y="52" width="210" height="8" as="geometry" />
         </mxCell>
         <mxCell id="nw4yl1-feg41qcsiGpT8-130" value="+ addTask" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="nw4yl1-feg41qcsiGpT8-127" vertex="1">
-          <mxGeometry y="86" width="210" height="26" as="geometry" />
+          <mxGeometry y="60" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="nw4yl1-feg41qcsiGpT8-131" value="+ cancelTask" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="nw4yl1-feg41qcsiGpT8-127" vertex="1">
-          <mxGeometry y="112" width="210" height="26" as="geometry" />
+          <mxGeometry y="86" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="nw4yl1-feg41qcsiGpT8-132" value="+ cancelAll" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="nw4yl1-feg41qcsiGpT8-127" vertex="1">
-          <mxGeometry y="138" width="210" height="26" as="geometry" />
+          <mxGeometry y="112" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="nw4yl1-feg41qcsiGpT8-133" value="+ resumeAll" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="nw4yl1-feg41qcsiGpT8-127" vertex="1">
-          <mxGeometry y="164" width="210" height="26" as="geometry" />
+          <mxGeometry y="138" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="nw4yl1-feg41qcsiGpT8-239" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nw4yl1-feg41qcsiGpT8-136" target="nw4yl1-feg41qcsiGpT8-189" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -376,17 +366,6 @@
         <mxCell id="nw4yl1-feg41qcsiGpT8-145" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="nw4yl1-feg41qcsiGpT8-143" vertex="1">
           <mxGeometry y="78" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="nw4yl1-feg41qcsiGpT8-151" value="Alert" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="520" y="1340" width="160" height="210" as="geometry">
-            <mxRectangle x="590" y="410" width="160" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="nw4yl1-feg41qcsiGpT8-152" value="viewModel" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="nw4yl1-feg41qcsiGpT8-151" vertex="1">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="nw4yl1-feg41qcsiGpT8-153" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="nw4yl1-feg41qcsiGpT8-151" vertex="1">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
-        </mxCell>
         <mxCell id="nw4yl1-feg41qcsiGpT8-154" value="DownloadError" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-150" y="1090" width="160" height="210" as="geometry">
             <mxRectangle x="590" y="410" width="160" height="26" as="alternateBounds" />
@@ -404,8 +383,17 @@
         <mxCell id="nw4yl1-feg41qcsiGpT8-156" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="nw4yl1-feg41qcsiGpT8-154" vertex="1">
           <mxGeometry y="104" width="160" height="8" as="geometry" />
         </mxCell>
+        <mxCell id="TpUF5XxTDp0fg7IAZ15s-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nw4yl1-feg41qcsiGpT8-157">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1170" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="768" y="800" />
+              <mxPoint x="1170" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="nw4yl1-feg41qcsiGpT8-157" value="DownloadListViewController" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="575" y="905" width="275" height="210" as="geometry">
+          <mxGeometry x="630" y="905" width="275" height="210" as="geometry">
             <mxRectangle x="590" y="410" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -472,8 +460,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="nw4yl1-feg41qcsiGpT8-189" value="DownloadManagerFloatingDelegate" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1090" y="470" width="220" height="190" as="geometry">
+        <mxCell id="nw4yl1-feg41qcsiGpT8-189" value="DownloadManagerDelegate" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1090" y="470" width="220" height="130" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -541,43 +529,29 @@
         <mxCell id="nw4yl1-feg41qcsiGpT8-240" value="data가 더 적합?&lt;div&gt;metadata&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-540" y="820" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nw4yl1-feg41qcsiGpT8-241" value="다운로드 파일 사이즈를 모를때는? - 알 수 없음 뜨는 경우" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="nw4yl1-feg41qcsiGpT8-241" value="다운로드 파일 사이즈를 모를때는? - 알 수 없음 뜨는 경우" style="rounded=1;whiteSpace=wrap;html=1;direction=west;shadow=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="630" y="-77" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nw4yl1-feg41qcsiGpT8-242" value="download url 받기 보다는 &lt;b&gt;request&lt;/b&gt; 받기&lt;div&gt;왜?&lt;/div&gt;&lt;div&gt;url은 url만 있음..&lt;/div&gt;&lt;div&gt;request - header에 권한 등 추가 정보 넣을 수 있음.&lt;/div&gt;&lt;div&gt;로그인 쿠키&lt;/div&gt;&lt;div&gt;url만 있으면 다운로드 제한적임&lt;/div&gt;&lt;div&gt;헤더나 바디 추가 가능&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="605" y="650" width="210" height="160" as="geometry" />
+          <mxGeometry x="810" y="410" width="210" height="160" as="geometry" />
         </mxCell>
         <mxCell id="nw4yl1-feg41qcsiGpT8-243" value="와이파이 &amp;lt;→ LTE 일때 에러" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="40" y="1090" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="nw4yl1-feg41qcsiGpT8-249" value="이어받기 할 수 있는 url, 없는 url이 있음" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="210" y="890" width="160" height="120" as="geometry" />
+          <mxGeometry x="190" y="840" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="nw4yl1-feg41qcsiGpT8-250" value="멀티 다운로드 몇개까지 될지&lt;div&gt;설정한 대로 안될거임~&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1230" y="120" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TpUF5XxTDp0fg7IAZ15s-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.058;entryY=1.026;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nw4yl1-feg41qcsiGpT8-235" target="nw4yl1-feg41qcsiGpT8-94">
+        <mxCell id="TpUF5XxTDp0fg7IAZ15s-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nw4yl1-feg41qcsiGpT8-235" target="zkfFHV4jXpPFQw0GAbJ--17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TpUF5XxTDp0fg7IAZ15s-3" value="DownloadManagerDelegate" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="840" y="470" width="180" height="190" as="geometry">
-            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TpUF5XxTDp0fg7IAZ15s-4" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="TpUF5XxTDp0fg7IAZ15s-3">
-          <mxGeometry y="26" width="180" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="TpUF5XxTDp0fg7IAZ15s-5" value="didStartDownload" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="TpUF5XxTDp0fg7IAZ15s-3">
-          <mxGeometry y="34" width="180" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="TpUF5XxTDp0fg7IAZ15s-6" value="didTotalDownloadBytes" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="TpUF5XxTDp0fg7IAZ15s-3">
-          <mxGeometry y="60" width="180" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="TpUF5XxTDp0fg7IAZ15s-7" value="didCompleteWithError" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="TpUF5XxTDp0fg7IAZ15s-3">
-          <mxGeometry y="86" width="180" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="TpUF5XxTDp0fg7IAZ15s-9" value="Blob 다운로드?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1050" y="-160" width="160" height="60" as="geometry" />
+          <mxGeometry x="1440" y="-135" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TpUF5XxTDp0fg7IAZ15s-12" value="네앱에도 array로 한 경우 있음" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1340" y="470" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
